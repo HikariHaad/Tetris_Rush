@@ -1,7 +1,7 @@
 # Tetris Game
 This simple Tetris game is built using Processing 3.5.4. It features a grid-based playing field where colored blocks fall from the top, and the player can control their movement and rotation to create horizontal lines and score points. The game ends when the grid is filled, and a restart prompt appears on the screen.
 
-How to Play
+How to Play /n
 Control the Falling Blocks: Use the left and right arrow keys to move the falling block horizontally. The block will automatically fall down over time.
 
 Rotate the Falling Block: Tetris blocks cannot be rotated in this implementation.
