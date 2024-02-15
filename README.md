@@ -1,31 +1,37 @@
 # Tetris Game
+
 This simple Tetris game is built using Processing 3.5.4. It features a grid-based playing field where colored blocks fall from the top, and the player can control their movement and rotation to create horizontal lines and score points. The game ends when the grid is filled, and a restart prompt appears on the screen.
 
-How to Play /n
-Control the Falling Blocks: Use the left and right arrow keys to move the falling block horizontally. The block will automatically fall down over time.
+## How to Play
 
-Rotate the Falling Block: Tetris blocks cannot be rotated in this implementation.
+1. **Control the Falling Blocks:** Use the **left and right arrow keys** to move the falling block horizontally. The block will automatically fall down over time.
 
-Score Points: Score points by completing horizontal lines of blocks. When a horizontal line is completed, it disappears, and your score increases.
+2. **Rotate the Falling Block:** Tetris blocks cannot be rotated in this implementation.
 
-Game Over: The game ends when the grid is completely filled with blocks. Click anywhere on the screen to restart the game.
+3. **Score Points:** Score points by completing horizontal lines of blocks. When a horizontal line is completed, it disappears, and your score increases.
 
-Customization
-Resolution: The game is designed for a resolution of 200x400 pixels, and the cell size is set to 20x20. You can adjust the RES_X, RES_Y, NUM_ROWS, and NUM_COLS constants for a different playing field size.
+4. **Game Over:** The game ends when the grid is completely filled with blocks. Click anywhere on the screen to restart the game.
 
-Colors: The game uses a predefined list of colors for the blocks. You can modify the COLORS list to change the appearance of the blocks.
+## Customization
 
-Speed: The falling speed of the blocks increases over time. You can customize the speed adjustment in the draw function.
+- **Resolution:** The game is designed for a resolution of 200x400 pixels, and the cell size is set to 20x20. You can adjust the `RES_X`, `RES_Y`, `NUM_ROWS`, and `NUM_COLS` constants for a different playing field size.
 
-Dependencies
-Processing 3.5.4
-Getting Started
-Download and install Processing.
+- **Colors:** The game uses a predefined list of colors for the blocks. You can modify the `COLORS` list to change the appearance of the blocks.
 
-Copy and paste the provided code into the Processing editor.
+- **Speed:** The falling speed of the blocks increases over time. You can customize the speed adjustment in the `draw` function.
 
-Run the sketch, and the game window will appear.
+## Dependencies
 
-Follow the on-screen instructions to play the game.
+- Processing 3.5.4
+
+## Getting Started
+
+1. Download and install [Processing](https://processing.org/download/).
+
+2. Copy and paste the provided code into the Processing editor.
+
+3. Run the sketch, and the game window will appear.
+
+4. Follow the on-screen instructions to play the game.
 
 Have fun playing Tetris!
